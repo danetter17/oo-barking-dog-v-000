@@ -21,3 +21,6 @@ class Dog
     @name
   end
 end
+
+ziggy=Dog.new("Ziggy")
+ziggy.bark
