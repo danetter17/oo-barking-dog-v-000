@@ -6,6 +6,7 @@ class Dog
   
   def bark
     @bark
+    pus "woof!"
   end
   
   def name=(name)
