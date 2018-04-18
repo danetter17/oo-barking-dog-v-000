@@ -23,5 +23,3 @@ class Dog
 end
 
 fido=Dog.new("Fido", bark)
-fido.name
-fido.bark
