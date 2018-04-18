@@ -5,7 +5,7 @@ class Dog
     @name=name
   end
   
-  def bark=bark
+  def bark=(bark)
     @bark=bark
   end
   
@@ -14,7 +14,7 @@ class Dog
     puts "woof!"
   end
   
-  def name=name
+  def name=(name)
     @name=name
   end
   
@@ -24,4 +24,3 @@ class Dog
 end
 
 ziggy=Dog.new("Ziggy")
-ziggy.bark
