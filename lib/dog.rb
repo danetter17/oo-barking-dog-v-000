@@ -6,7 +6,7 @@ class Dog
   
   def bark
     @bark
-    pus "woof!"
+    puts "woof!"
   end
   
   def name=(name)
